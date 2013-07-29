@@ -1,4 +1,0 @@
-DescentMonsters
-===============
-
-Descent Monsters
