@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/monsters_list_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="10dp" />
+
+    <ImageView
+        android:id="@+id/mon_trait1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/mon_trait2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="10dp" />
+
+    <TextView
+        android:id="@+id/mon_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingRight="3dp"
+        android:textSize="@dimen/tab_text_normal_size" />
+
+    <TextView
+        android:id="@+id/mon_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:paddingRight="3dp"
+        android:textSize="@dimen/tab_text_small_size" />
+
+    <TextView
+        android:id="@+id/mon_expansion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:textSize="@dimen/tab_text_small_size" />
+
+</LinearLayout>

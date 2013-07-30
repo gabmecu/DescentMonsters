@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="@string/settings_category_traits">
+        <CheckBoxPreference android:key="show_trait_1" android:defaultValue="true" android:title="@string/trait_name_1" android:icon="@drawable/trait_wilderness"/>
+        <CheckBoxPreference android:key="show_trait_2" android:defaultValue="true" android:title="@string/trait_name_2" android:icon="@drawable/trait_water"/>
+        <CheckBoxPreference android:key="show_trait_3" android:defaultValue="true" android:title="@string/trait_name_3" android:icon="@drawable/trait_hot"/>
+        <CheckBoxPreference android:key="show_trait_4" android:defaultValue="true" android:title="@string/trait_name_4" android:icon="@drawable/trait_civilized"/>
+        <CheckBoxPreference android:key="show_trait_5" android:defaultValue="true" android:title="@string/trait_name_5" android:icon="@drawable/trait_cave"/>
+        <CheckBoxPreference android:key="show_trait_6" android:defaultValue="true" android:title="@string/trait_name_6" android:icon="@drawable/trait_building"/>
+        <CheckBoxPreference android:key="show_trait_7" android:defaultValue="true" android:title="@string/trait_name_7" android:icon="@drawable/trait_cold"/>
+        <CheckBoxPreference android:key="show_trait_8" android:defaultValue="true" android:title="@string/trait_name_8" android:icon="@drawable/trait_cursed"/>
+        <CheckBoxPreference android:key="show_trait_9" android:defaultValue="true" android:title="@string/trait_name_9" android:icon="@drawable/trait_mountain"/>
+        <CheckBoxPreference android:key="show_trait_10" android:defaultValue="true" android:title="@string/trait_name_10" android:icon="@drawable/trait_dark"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_category_attack_type">
+        <CheckBoxPreference android:key="show_attack_cc" android:defaultValue="true" android:title="@string/attack_name_cc" android:icon="@drawable/attack_type_melee"/>
+        <CheckBoxPreference android:key="show_attack_ad" android:defaultValue="true" android:title="@string/attack_name_ad" android:icon="@drawable/attack_type_distance"/>
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>

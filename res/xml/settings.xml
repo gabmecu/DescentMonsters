@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="@string/settings_category_expansions">
+        <CheckBoxPreference android:key="show_expan_JitD1" android:title="@string/expan_name_JitD1" android:defaultValue="true"/>
+        <CheckBoxPreference android:key="show_expan_WoD" android:title="@string/expan_name_WoD" android:defaultValue="true"/>
+        <CheckBoxPreference android:key="show_expan_AoD" android:title="@string/expan_name_AoD" android:defaultValue="true"/>
+        <CheckBoxPreference android:key="show_expan_ToI" android:title="@string/expan_name_ToI" android:defaultValue="true"/>
+        <CheckBoxPreference android:key="show_expan_JitD2" android:title="@string/expan_name_JitD2" android:defaultValue="true"/>
+        <CheckBoxPreference android:key="show_expan_LotW" android:title="@string/expan_name_LotW" android:defaultValue="true"/>
+        <CheckBoxPreference android:key="show_expan_LoR" android:title="@string/expan_name_LoR" android:defaultValue="true"/>
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>

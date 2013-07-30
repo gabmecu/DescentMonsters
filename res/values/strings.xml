@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Monstruos Descent</string>
+    <string name="action_settings">Configuración</string>
+    <string name="main_tab_monsters">General</string>
+    <string name="main_tab_act1">Acto I</string>
+    <string name="main_tab_act2">Acto II</string>
+    <string name="tab_monsters_title">Listado general de monstruos:</string><string name="tittle_activity_monsters">MonstersActivity</string>
+    <string name="tittle_activity_act1">Act1Activity</string>
+    <string name="tittle_activity_act2">Act2Activity</string>
+    <string name="tittle_activity_settings">SettingsActivity</string>
+    <string name="menu_config">Configuración</string>
+    <string name="menu_filter">Filtrar monstruos</string>
+    <string name="menu_exit">Salir</string>
+    <string name="settings_category_expansions">Expansiones</string>
+    
+    <string name="settings_category_traits">Rasgos</string><string name="settings_category_attack_type">Tipo de Ataque</string>
+    
+
+</resources>
