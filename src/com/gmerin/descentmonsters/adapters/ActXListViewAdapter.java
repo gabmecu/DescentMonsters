@@ -16,6 +16,7 @@ import com.gmerin.descentmonsters.R;
 import com.gmerin.descentmonsters.db.MonstersDBHelper;
 import com.gmerin.descentmonsters.reflective.ReflectiveHelper;
 import com.gmerin.descentmonsters.utils.DrawableHelper;
+import com.gmerin.descentmonsters.utils.Constants;
 
 public class ActXListViewAdapter extends CursorAdapter {
 
@@ -59,8 +60,6 @@ public class ActXListViewAdapter extends CursorAdapter {
 			view.setBackgroundColor(Color.argb(100, 244, 199, 199));
 		else
 			view.setBackgroundColor(Color.argb(0, 255, 255, 255));
-		
-		// Color.parseColor("#f4c7c7")
 		
 		// Rellenamos el tipo de ataque
 		String auxTipoAtaque = cursor.getString(MonstersDBHelper.MON_ATTACK_TYPE_COL);
@@ -117,7 +116,7 @@ public class ActXListViewAdapter extends CursorAdapter {
 		// Utilizando la reflexión de java, obtendremos el nombre del monstruo
 		// en el idioma actual
 		Resources res = view.getResources();
-		int idMon = ReflectiveHelper.getRStringID("mon_name_"+codMonBD);
+		int idMon = ReflectiveHelper.getRStringID(Constants.NAME_MONSTERS_SUFFIX+codMonBD);
 		if (idMon != -1) 
 			nombre.setText(res.getString(idMon));
 		else
@@ -166,7 +165,7 @@ public class ActXListViewAdapter extends CursorAdapter {
 			// gracias a la reflexión de java. Si no encontramos la cadena, usamos la que
 			// hay en la base de datos.
 			String nomCap = capCursor.getString(MonstersDBHelper.AB_NAME_COL);
-			int idCap = ReflectiveHelper.getRStringID("mon_ab_"+capCursor.getInt(MonstersDBHelper.AB_ID_COL));
+			int idCap = ReflectiveHelper.getRStringID(Constants.NAME_ABILITIES_SUFFIX+capCursor.getInt(MonstersDBHelper.AB_ID_COL));
 			if (idCap != -1)
 				nomCap = res.getString(idCap);
 			

@@ -13,6 +13,7 @@ import android.widget.TextView;
 import com.gmerin.descentmonsters.R;
 import com.gmerin.descentmonsters.db.MonstersDBHelper;
 import com.gmerin.descentmonsters.reflective.ReflectiveHelper;
+import com.gmerin.descentmonsters.utils.Constants;
 import com.gmerin.descentmonsters.utils.DrawableHelper;
 
 public class MonstersListViewAdapter extends CursorAdapter {
@@ -44,7 +45,7 @@ public class MonstersListViewAdapter extends CursorAdapter {
 		// Utilizando la reflexión de java, obtendremos el nombre del monstruo
 		// en el idioma actual
 		Resources res = view.getResources();
-		int id = ReflectiveHelper.getRStringID("mon_name_"+codMonBD);
+		int id = ReflectiveHelper.getRStringID(Constants.NAME_MONSTERS_SUFFIX+codMonBD);
 		if (id != -1) 
 			nombre.setText(res.getString(id));
 		else
