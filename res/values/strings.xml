@@ -6,7 +6,7 @@
     <string name="main_tab_monsters">General</string>
     <string name="main_tab_act1">Acto I</string>
     <string name="main_tab_act2">Acto II</string>
-    <string name="tab_monsters_title">Listado general de monstruos:</string><string name="tittle_activity_monsters">MonstersActivity</string>
+    <string name="tab_monsters_title">Listado general de monstruos:</string><string name="tab_act1_title">Especificaciones monstruos Acto I:</string><string name="tab_act2_title">Especificaciones monstruos Acto II:</string><string name="tittle_activity_monsters">MonstersActivity</string>
     <string name="tittle_activity_act1">Act1Activity</string>
     <string name="tittle_activity_act2">Act2Activity</string>
     <string name="tittle_activity_settings">SettingsActivity</string>
@@ -16,6 +16,8 @@
     <string name="settings_category_expansions">Expansiones</string>
     
     <string name="settings_category_traits">Rasgos</string><string name="settings_category_attack_type">Tipo de Ataque</string>
+    
+    
     
 
 </resources>

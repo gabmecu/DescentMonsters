@@ -42,7 +42,7 @@ public class MonstersActivity extends Activity {
 	
 	@Override
 	protected void onResume() {
-		// Siempre que se vuelva a mostrar la pantalla, regargamos los datos no sea que se hayan modificado las preferencias
+		// Siempre que se vuelva a mostrar la pantalla, recargamos los datos no sea que se hayan modificado las preferencias
 		super.onResume();
 		monAdapter = new MonstersListViewAdapter(MonstersActivity.this, monDBHelper.getMonsters(prefHelp), false);
 		listView.setAdapter(monAdapter);

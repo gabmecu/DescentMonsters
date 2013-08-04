@@ -14,6 +14,12 @@
         android:id="@+id/monsters_list_txt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Monstruos del Acto II" />
+        android:text="@string/tab_act2_title" />
+
+    <ListView
+        android:id="@+id/listView_act2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
 
 </LinearLayout>

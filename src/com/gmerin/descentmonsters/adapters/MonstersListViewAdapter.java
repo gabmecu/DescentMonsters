@@ -13,6 +13,7 @@ import android.widget.TextView;
 import com.gmerin.descentmonsters.R;
 import com.gmerin.descentmonsters.db.MonstersDBHelper;
 import com.gmerin.descentmonsters.reflective.ReflectiveHelper;
+import com.gmerin.descentmonsters.utils.DrawableHelper;
 
 public class MonstersListViewAdapter extends CursorAdapter {
 
@@ -26,7 +27,7 @@ public class MonstersListViewAdapter extends CursorAdapter {
 	public void bindView(View view, Context context, Cursor cursor) {
 		// Obtenemos una referencia a todas las vistas
 		ImageView tipoAtaque = (ImageView) view.findViewById(R.id.monsters_list_txt);
-		TextView nombre = (TextView) view.findViewById(R.id.mon_name);
+		TextView nombre = (TextView) view.findViewById(R.id.mon_act_name);
 		ImageView rasgo1 = (ImageView) view.findViewById(R.id.mon_trait1);
 		ImageView rasgo2 = (ImageView) view.findViewById(R.id.mon_trait2);
 		TextView expansion = (TextView) view.findViewById(R.id.mon_expansion);
@@ -34,7 +35,7 @@ public class MonstersListViewAdapter extends CursorAdapter {
 		
 		// Rellenamos la imagen del tipo de ataque
 		String ataque = cursor.getString(MonstersDBHelper.MON_ATTACK_TYPE_COL);
-		int ataqueDrawableID = getDrawableIDAttackType(ataque);
+		int ataqueDrawableID = DrawableHelper.getDrawableIDAttackType(ataque);
 		if(ataqueDrawableID != -1) tipoAtaque.setImageResource(ataqueDrawableID);
 		
 		// Rellenamos el nombre del monstruo
@@ -53,8 +54,8 @@ public class MonstersListViewAdapter extends CursorAdapter {
 		int r1 = cursor.getInt(MonstersDBHelper.MON_TRAIT1_COL);
 		int r2 = cursor.getInt(MonstersDBHelper.MON_TRAIT2_COL);
 		
-		int r1DrawableID = getDrawableIDTrait(r1);
-		int r2DrawableID = getDrawableIDTrait(r2);
+		int r1DrawableID = DrawableHelper.getDrawableIDTrait(r1);
+		int r2DrawableID = DrawableHelper.getDrawableIDTrait(r2);
 		
 		if(r1DrawableID != -1) rasgo1.setImageResource(r1DrawableID);
 		if(r2DrawableID != -1) rasgo2.setImageResource(r2DrawableID);
@@ -71,29 +72,6 @@ public class MonstersListViewAdapter extends CursorAdapter {
 		LayoutInflater inflater = LayoutInflater.from(parent.getContext());
 		View retView = inflater.inflate(R.layout.monsters_listview_row, parent, false);
 		return retView;
-	}
-	
-	private int getDrawableIDAttackType(String attack) {
-		// Cuerpo a cuerpo
-		if (attack.compareToIgnoreCase("cc")==0) return R.drawable.attack_type_melee;
-		if (attack.compareToIgnoreCase("ad")==0) return R.drawable.attack_type_distance;
-		return -1;
-	}
-	
-	private int getDrawableIDTrait(int traitID) {
-		switch(traitID) {
-			case 1: return R.drawable.trait_wilderness; // Bosque
-			case 2:	return R.drawable.trait_water; // Agua
-			case 3: return R.drawable.trait_hot; // Calor
-			case 4: return R.drawable.trait_civilized; // Civilizado
-			case 5: return R.drawable.trait_cave; // Cueva
-			case 6: return R.drawable.trait_building; // Edificio
-			case 7: return R.drawable.trait_cold; // Frío
-			case 8: return R.drawable.trait_cursed; // Maldito
-			case 9: return R.drawable.trait_mountain; // Montaña
-			case 10: return R.drawable.trait_dark; // Oscuridad
-		}
-		return -1;
 	}
 
 }
