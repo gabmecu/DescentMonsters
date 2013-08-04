@@ -55,10 +55,12 @@ public class ActXListViewAdapter extends CursorAdapter {
 		
 		// Si el monstruos es líder, entonces cambiamos el color de fondo de la fila
 		Boolean esLider = Boolean.parseBoolean(cursor.getString(MonstersDBHelper.MON_LEADER_COL));
-//		if (esLider)
-//			view.setBackgroundColor(Color.parseColor("#f4c7c7"));
-//		else
-//			view.setBackgroundColor(Color.WHITE);
+		if (esLider)
+			view.setBackgroundColor(Color.argb(100, 244, 199, 199));
+		else
+			view.setBackgroundColor(Color.argb(0, 255, 255, 255));
+		
+		// Color.parseColor("#f4c7c7")
 		
 		// Rellenamos el tipo de ataque
 		String auxTipoAtaque = cursor.getString(MonstersDBHelper.MON_ATTACK_TYPE_COL);
