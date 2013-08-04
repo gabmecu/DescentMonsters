@@ -6,6 +6,7 @@
     <dimen name="monster_tab_icon_size">22px</dimen>
     <dimen name="tab_text_normal_size">14sp</dimen>
     <dimen name="tab_text_small_size">11sp</dimen>
-    <dimen name="act_listview_row_txt_margin">5sp</dimen>
+    <dimen name="act_listview_row_txt_margin">10sp</dimen>
+    <dimen name="act_listview_row_ab_size">13sp</dimen>
 
 </resources>

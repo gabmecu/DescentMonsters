@@ -11,6 +11,7 @@ public final class R {
     public static final class attr {
     }
     public static final class dimen {
+        public static final int act_listview_row_ab_size=0x7f050006;
         public static final int act_listview_row_txt_margin=0x7f050005;
         /**  Default screen margins, per the Android Design guidelines. 
 

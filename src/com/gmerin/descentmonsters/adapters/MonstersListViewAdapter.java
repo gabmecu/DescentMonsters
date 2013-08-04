@@ -45,7 +45,7 @@ public class MonstersListViewAdapter extends CursorAdapter {
 		// Utilizando la reflexión de java, obtendremos el nombre del monstruo
 		// en el idioma actual
 		Resources res = view.getResources();
-		int id = ReflectiveHelper.getRStringID(Constants.NAME_MONSTERS_SUFFIX+codMonBD);
+		int id = ReflectiveHelper.getRStringID(Constants.SUFFIX_NAME_MONSTERS+codMonBD);
 		if (id != -1) 
 			nombre.setText(res.getString(id));
 		else

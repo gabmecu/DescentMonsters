@@ -17,6 +17,7 @@ import com.gmerin.descentmonsters.db.MonstersDBHelper;
 import com.gmerin.descentmonsters.reflective.ReflectiveHelper;
 import com.gmerin.descentmonsters.utils.DrawableHelper;
 import com.gmerin.descentmonsters.utils.Constants;
+import com.gmerin.descentmonsters.utils.ImageInText;
 
 public class ActXListViewAdapter extends CursorAdapter {
 
@@ -116,7 +117,7 @@ public class ActXListViewAdapter extends CursorAdapter {
 		// Utilizando la reflexión de java, obtendremos el nombre del monstruo
 		// en el idioma actual
 		Resources res = view.getResources();
-		int idMon = ReflectiveHelper.getRStringID(Constants.NAME_MONSTERS_SUFFIX+codMonBD);
+		int idMon = ReflectiveHelper.getRStringID(Constants.SUFFIX_NAME_MONSTERS+codMonBD);
 		if (idMon != -1) 
 			nombre.setText(res.getString(idMon));
 		else
@@ -165,7 +166,7 @@ public class ActXListViewAdapter extends CursorAdapter {
 			// gracias a la reflexión de java. Si no encontramos la cadena, usamos la que
 			// hay en la base de datos.
 			String nomCap = capCursor.getString(MonstersDBHelper.AB_NAME_COL);
-			int idCap = ReflectiveHelper.getRStringID(Constants.NAME_ABILITIES_SUFFIX+capCursor.getInt(MonstersDBHelper.AB_ID_COL));
+			int idCap = ReflectiveHelper.getRStringID(Constants.SUFFIX_NAME_ABILITIES+capCursor.getInt(MonstersDBHelper.AB_ID_COL));
 			if (idCap != -1)
 				nomCap = res.getString(idCap);
 			
@@ -178,19 +179,19 @@ public class ActXListViewAdapter extends CursorAdapter {
 			
 			switch(i) {
 			case 1:
-				cap1Nombre.setText(textoCap);
+				ImageInText.setImageInText(textoCap, Constants.TOKEN_DAMAGE_ICON, R.drawable.icon_damage, cap1Nombre, context);
 				if (iconID != -1) cap1Coste.setImageResource(iconID);
 				break;
 			case 2:
-				cap2Nombre.setText(textoCap);
+				ImageInText.setImageInText(textoCap, Constants.TOKEN_DAMAGE_ICON, R.drawable.icon_damage, cap2Nombre, context);
 				if (iconID != -1) cap2Coste.setImageResource(iconID);
 				break;
 			case 3:
-				cap3Nombre.setText(textoCap);
+				ImageInText.setImageInText(textoCap, Constants.TOKEN_DAMAGE_ICON, R.drawable.icon_damage, cap3Nombre, context);
 				if (iconID != -1) cap3Coste.setImageResource(iconID);
 				break;
 			case 4:
-				cap4Nombre.setText(textoCap);
+				ImageInText.setImageInText(textoCap, Constants.TOKEN_DAMAGE_ICON, R.drawable.icon_damage, cap4Nombre, context);
 				if (iconID != -1) cap4Coste.setImageResource(iconID);
 				break;
 			}
