@@ -67,6 +67,13 @@ public class ActXListViewAdapter extends CursorAdapter {
 		int tipoAtaqueDrawableID = DrawableHelper.getDrawableIDAttackType(auxTipoAtaque);
 		if(tipoAtaqueDrawableID != -1) tipoAtaque.setImageResource(tipoAtaqueDrawableID); 
 		
+		// Para evitar problemas, ponemos la imagen de un dado transaparente en los dados
+		// 1 y 2 tanto de ataque como de defensa.
+		ataque1.setImageResource(R.drawable.dice_span);
+		ataque2.setImageResource(R.drawable.dice_span);
+		defensa1.setImageResource(R.drawable.dice_span);
+		defensa2.setImageResource(R.drawable.dice_span);
+		
 		// Si estamos en el acto 2, añadimos la imagen del tercer dado transparente.
 		// Si al final el monstruo no tiene tercer dado, al menos todo quedará tabulado.
 		if (cursor.getInt(MonstersDBHelper.MON_ACT_COL) == 2)
