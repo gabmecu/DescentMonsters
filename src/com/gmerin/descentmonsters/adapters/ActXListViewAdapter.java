@@ -152,9 +152,13 @@ public class ActXListViewAdapter extends CursorAdapter {
 		
 		// Inicializamos el coste
 		cap1Coste.setImageResource(-1);
+		cap1Coste.setVisibility(ImageView.GONE);
 		cap2Coste.setImageResource(-1);
+		cap2Coste.setVisibility(ImageView.GONE);
 		cap3Coste.setImageResource(-1);
+		cap3Coste.setVisibility(ImageView.GONE);
 		cap4Coste.setImageResource(-1);
+		cap4Coste.setVisibility(ImageView.GONE);
 		
 		// Recorremos el cursor con las capacidades del monstruo actual
 		int i = 1;
@@ -188,18 +192,22 @@ public class ActXListViewAdapter extends CursorAdapter {
 			case 1:
 				ImageInText.setImageInText(textoCap, Constants.TOKEN_DAMAGE_ICON, R.drawable.icon_damage, cap1Nombre, context);
 				if (iconID != -1) cap1Coste.setImageResource(iconID);
+				cap1Coste.setVisibility(ImageView.VISIBLE);
 				break;
 			case 2:
 				ImageInText.setImageInText(textoCap, Constants.TOKEN_DAMAGE_ICON, R.drawable.icon_damage, cap2Nombre, context);
 				if (iconID != -1) cap2Coste.setImageResource(iconID);
+				cap2Coste.setVisibility(ImageView.VISIBLE);
 				break;
 			case 3:
 				ImageInText.setImageInText(textoCap, Constants.TOKEN_DAMAGE_ICON, R.drawable.icon_damage, cap3Nombre, context);
 				if (iconID != -1) cap3Coste.setImageResource(iconID);
+				cap3Coste.setVisibility(ImageView.VISIBLE);
 				break;
 			case 4:
 				ImageInText.setImageInText(textoCap, Constants.TOKEN_DAMAGE_ICON, R.drawable.icon_damage, cap4Nombre, context);
 				if (iconID != -1) cap4Coste.setImageResource(iconID);
+				cap4Coste.setVisibility(ImageView.VISIBLE);
 				break;
 			}
 			i++;
