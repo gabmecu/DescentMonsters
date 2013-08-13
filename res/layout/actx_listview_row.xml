@@ -72,7 +72,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:textSize="@dimen/tab_text_normal_size" />
+            android:textSize="@dimen/tab_text_normal_size"
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/mon_health_icon"
@@ -86,14 +87,16 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_marginRight="@dimen/act_listview_row_txt_margin"
-            android:textSize="@dimen/tab_text_normal_size" />
+            android:textSize="@dimen/tab_text_normal_size"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/mon_act_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:textSize="@dimen/tab_text_normal_size" />
+            android:textSize="@dimen/tab_text_normal_size"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/mon_group_value"
@@ -119,7 +122,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_marginRight="@dimen/act_listview_row_txt_margin"
-            android:textSize="@dimen/act_listview_row_ab_size" />
+            android:textSize="@dimen/act_listview_row_ab_size"
+            android:textStyle="italic" />
 
         <ImageView
             android:id="@+id/mon_ab2_cost"
@@ -132,7 +136,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_marginRight="@dimen/act_listview_row_txt_margin"
-            android:textSize="@dimen/act_listview_row_ab_size" />
+            android:textSize="@dimen/act_listview_row_ab_size"
+            android:textStyle="italic" />
 
         <ImageView
             android:id="@+id/mon_ab3_cost"
@@ -145,7 +150,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_marginRight="@dimen/act_listview_row_txt_margin"
-            android:textSize="@dimen/act_listview_row_ab_size" />
+            android:textSize="@dimen/act_listview_row_ab_size"
+            android:textStyle="italic" />
 
         <ImageView
             android:id="@+id/mon_ab4_cost"
@@ -157,7 +163,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:textSize="@dimen/act_listview_row_ab_size" />
+            android:textSize="@dimen/act_listview_row_ab_size"
+            android:textStyle="italic" />
 
     </LinearLayout>
 
