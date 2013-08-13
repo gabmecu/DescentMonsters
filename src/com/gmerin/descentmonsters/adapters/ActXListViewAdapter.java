@@ -131,10 +131,14 @@ public class ActXListViewAdapter extends CursorAdapter {
 			nombre.setText(nomMonBD);
 		
 		// Rellenamos el tamaño del grupo de monstruos
-		String valorGrupo = cursor.getString(MonstersDBHelper.MON_GRP_SIZE2H_COL)+"|";
-		valorGrupo += cursor.getString(MonstersDBHelper.MON_GRP_SIZE3H_COL)+"|";
-		valorGrupo += cursor.getString(MonstersDBHelper.MON_GRP_SIZE4H_COL);
-		tamGrupo.setText(valorGrupo);
+		// Nota: Debido a que en pantallas más pequeñas esta información no cabe,
+		// se ha eliminado este componente en algunos layouts
+		if(tamGrupo != null) {
+			String valorGrupo = cursor.getString(MonstersDBHelper.MON_GRP_SIZE2H_COL);
+			valorGrupo += "|"+cursor.getString(MonstersDBHelper.MON_GRP_SIZE3H_COL);
+			valorGrupo += "|"+cursor.getString(MonstersDBHelper.MON_GRP_SIZE4H_COL);
+			tamGrupo.setText(valorGrupo);
+		}
 		 
 		// Rellenamos las habilidades (Máximo 4)
 		int id_mon_act = cursor.getInt(MonstersDBHelper.MON_ACT_COD_COL);

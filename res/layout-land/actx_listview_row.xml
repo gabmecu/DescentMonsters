@@ -99,6 +99,13 @@
             android:textSize="@dimen/tab_text_normal_size"
             android:textStyle="bold" />
 
+        <TextView
+            android:id="@+id/mon_group_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:textSize="@dimen/tab_text_small_size" />
+
     </LinearLayout>
 
     <LinearLayout
