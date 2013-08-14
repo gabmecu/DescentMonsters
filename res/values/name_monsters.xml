@@ -33,4 +33,7 @@
     <string name="mon_name_31">Troll</string>
     <string name="mon_name_32">Wendigo</string>
     <string name="mon_name_33">Zombie</string>
+    <string name="mon_name_34">Kobold</string>
+    <string name="mon_name_35">Diablillos de fuego</string>
+    <string name="mon_name_36">Centinela híbrido</string>
 </resources>
