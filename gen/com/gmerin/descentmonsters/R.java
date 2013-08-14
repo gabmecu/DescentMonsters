@@ -70,6 +70,8 @@ public final class R {
         public static final int menu_config=0x7f090020;
         public static final int menu_exit=0x7f090022;
         public static final int menu_filter=0x7f090021;
+        public static final int menufilters_checkall_traits=0x7f090023;
+        public static final int menufilters_uncheckall_traits=0x7f090024;
         public static final int mon_ab1_cost=0x7f090010;
         public static final int mon_ab1_name=0x7f090011;
         public static final int mon_ab2_cost=0x7f090012;
@@ -111,7 +113,8 @@ public final class R {
         public static final int act2=0x7f080001;
         public static final int main=0x7f080002;
         public static final int menu=0x7f080003;
-        public static final int monsters=0x7f080004;
+        public static final int menu_filters=0x7f080004;
+        public static final int monsters=0x7f080005;
     }
     public static final class string {
         public static final int action_settings=0x7f06006f;
@@ -131,6 +134,8 @@ public final class R {
         public static final int menu_config=0x7f06007a;
         public static final int menu_exit=0x7f06007c;
         public static final int menu_filter=0x7f06007b;
+        public static final int menufilters_mark_traits=0x7f060080;
+        public static final int menufilters_unmark_traits=0x7f060081;
         public static final int mon_ab_1=0x7f060000;
         public static final int mon_ab_10=0x7f060009;
         public static final int mon_ab_11=0x7f06000a;
