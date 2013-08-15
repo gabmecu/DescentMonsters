@@ -134,8 +134,8 @@ public final class R {
         public static final int menu_config=0x7f06007a;
         public static final int menu_exit=0x7f06007c;
         public static final int menu_filter=0x7f06007b;
-        public static final int menufilters_mark_traits=0x7f060080;
-        public static final int menufilters_unmark_traits=0x7f060081;
+        public static final int menufilters_checkall_traits=0x7f060080;
+        public static final int menufilters_uncheckall_traits=0x7f060081;
         public static final int mon_ab_1=0x7f060000;
         public static final int mon_ab_10=0x7f060009;
         public static final int mon_ab_11=0x7f06000a;
