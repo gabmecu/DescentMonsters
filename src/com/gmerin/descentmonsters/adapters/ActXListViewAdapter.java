@@ -71,13 +71,9 @@ public class ActXListViewAdapter extends CursorAdapter {
 		// 1 y 2 tanto de ataque como de defensa.
 		ataque1.setImageResource(R.drawable.dice_span);
 		ataque2.setImageResource(R.drawable.dice_span);
+		ataque3.setImageResource(R.drawable.dice_span);
 		defensa1.setImageResource(R.drawable.dice_span);
-		defensa2.setImageResource(R.drawable.dice_span);
-		
-		// Si estamos en el acto 2, añadimos la imagen del tercer dado transparente.
-		// Si al final el monstruo no tiene tercer dado, al menos todo quedará tabulado.
-		if (cursor.getInt(MonstersDBHelper.MON_ACT_COL) == 2)
-			ataque3.setImageResource(R.drawable.dice_span);
+		defensa2.setImageResource(R.drawable.dice_span);		
 		
 		// Rellenamos los dados de ataque
 		String auxAtaque = cursor.getString(MonstersDBHelper.MON_ATTACK_COL);
