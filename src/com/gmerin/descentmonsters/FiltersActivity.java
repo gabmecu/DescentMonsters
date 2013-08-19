@@ -3,22 +3,22 @@ package com.gmerin.descentmonsters;
 import java.util.Map;
 
 import android.content.SharedPreferences;
-import android.content.res.Resources;
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;
 import android.preference.Preference;
-import android.preference.PreferenceActivity;
 import android.preference.PreferenceManager;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-public class FiltersActivity extends PreferenceActivity {
+public class FiltersActivity extends MonstersPreferenceActivity  {
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		addPreferencesFromResource(R.xml.filters);
-
+		// Registramos un listener para saber si hay cambios en las preferencias
+		PreferenceManager.getDefaultSharedPreferences(this).registerOnSharedPreferenceChangeListener(this);
 	}
 	
 	@Override
@@ -70,4 +70,5 @@ public class FiltersActivity extends PreferenceActivity {
         }
 
     }
+
 }

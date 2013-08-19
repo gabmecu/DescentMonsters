@@ -1,9 +1,8 @@
 package com.gmerin.descentmonsters;
 
 import android.os.Bundle;
-import android.preference.PreferenceActivity;
 
-public class SettingsActivity extends PreferenceActivity {
+public class SettingsActivity extends MonstersPreferenceActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

@@ -39,10 +39,14 @@ public class Act1Activity extends Activity {
 	
 	@Override
 	protected void onResume() {
-		// Siempre que se vuelva a mostrar la pantalla, recargamos lo datos no sea que se hayan modificado las preferencias
 		super.onResume();
-		monActXAdapter = new ActXListViewAdapter(Act1Activity.this, monDBHelper.getAct1Monsters(prefHelp), false);
-		listView.setAdapter(monActXAdapter);
+		// Si han habido cambios en las preferencias, refrescamos el contenido
+		if(FiltersActivity.updateAct1Monsters() || SettingsActivity.updateAct1Monsters()) {
+			FiltersActivity.resetAct1Monsters();
+			SettingsActivity.resetAct1Monsters();
+			monActXAdapter = new ActXListViewAdapter(Act1Activity.this, monDBHelper.getAct1Monsters(prefHelp), false);
+			listView.setAdapter(monActXAdapter);
+		}
 	}
 
 }

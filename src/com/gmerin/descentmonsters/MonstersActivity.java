@@ -42,10 +42,14 @@ public class MonstersActivity extends Activity {
 	
 	@Override
 	protected void onResume() {
-		// Siempre que se vuelva a mostrar la pantalla, recargamos los datos no sea que se hayan modificado las preferencias
 		super.onResume();
-		monAdapter = new MonstersListViewAdapter(MonstersActivity.this, monDBHelper.getMonsters(prefHelp), false);
-		listView.setAdapter(monAdapter);
+		// Si han habido cambios en las preferencias, refrescamos el contenido
+		if (FiltersActivity.updateGeneralMonsters() || SettingsActivity.updateGeneralMonsters()) {
+			FiltersActivity.resetGeneralMonsters();
+			SettingsActivity.resetGeneralMonsters();
+			monAdapter = new MonstersListViewAdapter(MonstersActivity.this, monDBHelper.getMonsters(prefHelp), false);
+			listView.setAdapter(monAdapter);
+		}
 	}
 
 }
