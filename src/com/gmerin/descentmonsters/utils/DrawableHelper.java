@@ -35,6 +35,7 @@ public class DrawableHelper {
 			case 'p': return R.drawable.dice_p; // Plata
 			case 'r': return R.drawable.dice_r; // Rojo
 			case 'z': return R.drawable.dice_z; // Azul
+			case 'v': return R.drawable.dice_v; // Verde
 		}
 		return -1;
 	}
@@ -43,6 +44,7 @@ public class DrawableHelper {
 		if (cod == null) return -1;
 		if (cod.compareTo("ac") == 0) return R.drawable.icon_action; // Acción
 		if (cod.compareTo("in") == 0) return R.drawable.icon_surge;	// Incremento
+		if (cod.compareTo("ii") == 0) return R.drawable.icon_2surge; // Doble incremento
 		return -1;
 	}
 	
