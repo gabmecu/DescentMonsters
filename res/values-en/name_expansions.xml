@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="expan_name_JitD1">Journeys in the Dark 1st Ed.</string>
+    <string name="expan_name_WoD">Well of Darkness</string>
+    <string name="expan_name_AoD">Altar of Despair</string>
+    <string name="expan_name_ToI">Tomb of Ice</string>
+    <string name="expan_name_JitD2">Journeys in the Dark 2nd Ed.</string>
+    <string name="expan_name_LotW">Lair of the Wyrm</string>
+    <string name="expan_name_LoR">Labyrinth of Ruin</string>
+</resources>

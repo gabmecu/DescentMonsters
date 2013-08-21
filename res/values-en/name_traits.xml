@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="trait_name_1">Wilderness</string>
+    <string name="trait_name_2">Water</string>
+    <string name="trait_name_3">Hot</string>
+    <string name="trait_name_4">Civilized</string>
+    <string name="trait_name_5">Cave</string>
+    <string name="trait_name_6">Building</string>
+    <string name="trait_name_7">Cold</string>
+    <string name="trait_name_8">Cursed</string>
+    <string name="trait_name_9">Mountain</string>
+    <string name="trait_name_10">Dark</string>
+
+</resources>

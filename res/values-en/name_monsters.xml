@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mon_name_1">Razorwing</string>
+    <string name="mon_name_2">Shade</string>
+    <string name="mon_name_3">Cave Spider</string>
+    <string name="mon_name_4">Bane Spider</string>
+    <string name="mon_name_5">Goblin Archer</string>
+    <string name="mon_name_6">Barghest</string>
+    <string name="mon_name_7">Chaos Beast</string>
+    <string name="mon_name_8">Demon Lord</string>
+    <string name="mon_name_9">Crypt Dragon</string>
+    <string name="mon_name_10">Shadow Dragon</string>
+    <string name="mon_name_11">Elemental</string>
+    <string name="mon_name_12">Deep Elf</string>
+    <string name="mon_name_13">Lava Beetle</string>
+    <string name="mon_name_14">Skeleton Archer</string>
+    <string name="mon_name_15">Ettin</string>
+    <string name="mon_name_16">Ferrox</string>
+    <string name="mon_name_17">Giant</string>
+    <string name="mon_name_18">Golem</string>
+    <string name="mon_name_19">Sorcerer</string>
+    <string name="mon_name_20">Beastman</string>
+    <string name="mon_name_21">Manticore</string>
+    <string name="mon_name_22">Medusa</string>
+    <string name="mon_name_23">Merriod</string>
+    <string name="mon_name_24">Flesh Moulder</string>
+    <string name="mon_name_25">Naga</string>
+    <string name="mon_name_26">Ogre</string>
+    <string name="mon_name_27">Hellhound</string>
+    <string name="mon_name_28">Dark Priest</string>
+    <string name="mon_name_29">Ice Wyrm</string>
+    <string name="mon_name_30">Blood Ape</string>
+    <string name="mon_name_31">Troll</string>
+    <string name="mon_name_32">Wendigo</string>
+    <string name="mon_name_33">Zombie</string>
+    <string name="mon_name_34">Kobold</string>
+    <string name="mon_name_35">Fire Imps</string>
+    <string name="mon_name_36">Hybrid Centinel</string>
+    <string name="mon_name_37">Goblin Witcher</string>
+    <string name="mon_name_38">Volucrix Reaver</string>
+    <string name="mon_name_39">Carrion Drake</string>
+    <string name="mon_name_40">Arachyura</string>
+</resources>

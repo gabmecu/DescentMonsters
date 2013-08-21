@@ -58,8 +58,7 @@
     <string name="mon_ab_56">Embrujar</string>
     <string name="mon_ab_57">Maldecir</string>
     <string name="mon_ab_58">Escaramuza</string>
-    <string name="mon_ab_59">Ensañarse</string>
-    <string name="mon_ab_60">Plaga</string>
-    <string name="mon_ab_61">Ataque con pinzas</string>
-    <string name="mon_ab_62">Maldición Permanente</string>
+    <string name="mon_ab_59">Plaga</string>
+    <string name="mon_ab_60">Ataque con pinzas</string>
+    <string name="mon_ab_61">Maldición Permanente</string>
 </resources>
