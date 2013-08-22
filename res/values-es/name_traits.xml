@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="trait_name_1">Bosque</string>
+    <string name="trait_name_2">Agua</string>
+    <string name="trait_name_3">Calor</string>
+    <string name="trait_name_4">Civilizado</string>
+    <string name="trait_name_5">Cueva</string>
+    <string name="trait_name_6">Edificio</string>
+    <string name="trait_name_7">Frío</string>
+    <string name="trait_name_8">Maldito</string>
+    <string name="trait_name_9">Montaña</string>
+    <string name="trait_name_10">Oscuridad</string>
+
+</resources>

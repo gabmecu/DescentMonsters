@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mon_name_1">Alacortante</string>
+    <string name="mon_name_2">Alma en Pena</string>
+    <string name="mon_name_3">Araña de las Cavernas</string>
+    <string name="mon_name_4">Araña ponzoñosa</string>
+    <string name="mon_name_5">Arquero Goblin</string>
+    <string name="mon_name_6">Barghest</string>
+    <string name="mon_name_7">Bestia del Caos</string>
+    <string name="mon_name_8">Demonio</string>
+    <string name="mon_name_9">Dragón de la Cripta</string>
+    <string name="mon_name_10">Dragón de las sombras</string>
+    <string name="mon_name_11">Elemental</string>
+    <string name="mon_name_12">Elfo del abismo</string>
+    <string name="mon_name_13">Escarabajo de lava</string>
+    <string name="mon_name_14">Esqueleto arquero</string>
+    <string name="mon_name_15">Ettin</string>
+    <string name="mon_name_16">Férrox</string>
+    <string name="mon_name_17">Gigante</string>
+    <string name="mon_name_18">Gólem</string>
+    <string name="mon_name_19">Hechicero</string>
+    <string name="mon_name_20">Hombre Bestia</string>
+    <string name="mon_name_21">Mantícora</string>
+    <string name="mon_name_22">Medusa</string>
+    <string name="mon_name_23">Meriodón</string>
+    <string name="mon_name_24">Moldeador de Carne</string>
+    <string name="mon_name_25">Naga</string>
+    <string name="mon_name_26">Ogro</string>
+    <string name="mon_name_27">Sabueso Infernal</string>
+    <string name="mon_name_28">Sacerdote Oscuro</string>
+    <string name="mon_name_29">Sierpe de Hielo</string>
+    <string name="mon_name_30">Simio Sangriento</string>
+    <string name="mon_name_31">Troll</string>
+    <string name="mon_name_32">Wendigo</string>
+    <string name="mon_name_33">Zombie</string>
+    <string name="mon_name_34">Kobold</string>
+    <string name="mon_name_35">Diablillos de fuego</string>
+    <string name="mon_name_36">Centinela híbrido</string>
+    <string name="mon_name_37">Brujo Goblin</string>
+    <string name="mon_name_38">Despedazador Volucrix</string>
+    <string name="mon_name_39">Dragón carroñero</string>
+    <string name="mon_name_40">Arachyura</string>
+</resources>

@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Monstruos Descent</string>
-    <string name="action_settings">Configuración</string>
+    <string name="app_name">Descent Monsters</string>
+    <string name="action_settings">Settings</string>
     <string name="main_tab_monsters">General</string>
-    <string name="main_tab_act1">Acto I</string>
-    <string name="main_tab_act2">Acto II</string>
-    <string name="tab_monsters_title">Listado general de monstruos:</string><string name="tab_act1_title">Especificaciones monstruos Acto I:</string><string name="tab_act2_title">Especificaciones monstruos Acto II:</string><string name="tittle_activity_monsters">MonstersActivity</string>
+    <string name="main_tab_act1">Act I</string>
+    <string name="main_tab_act2">Act II</string>
+    <string name="tab_monsters_title">General monsters list:</string><string name="tab_act1_title">Act I monsters stats:</string><string name="tab_act2_title">Act II monsters stats:</string><string name="tittle_activity_monsters">MonstersActivity</string>
     <string name="tittle_activity_act1">Act1Activity</string>
     <string name="tittle_activity_act2">Act2Activity</string>
     <string name="tittle_activity_settings">SettingsActivity</string>
-    <string name="menu_config">Configuración</string>
-    <string name="menu_filter">Filtrar monstruos</string>
-    <string name="menu_exit">Salir</string>
-    <string name="settings_category_expansions">Expansiones</string>
+    <string name="menu_config">Settings</string>
+    <string name="menu_filter">Filter monsters</string>
+    <string name="menu_exit">Exit</string>
+    <string name="settings_category_expansions">Expansions</string>
     
-    <string name="settings_category_traits">Rasgos</string><string name="settings_category_attack_type">Tipo de Ataque</string>
-    <string name="menufilters_checkall_traits">Marcar todos los rasgos</string>
-    <string name="menufilters_uncheckall_traits">Desmarcar todos los rasgos</string>
+    <string name="settings_category_traits">Traits</string><string name="settings_category_attack_type">Tipo de Ataque</string>
+    <string name="menufilters_checkall_traits">Check all traits</string>
+    <string name="menufilters_uncheckall_traits">Uncheck all traits</string>
     
     
     
