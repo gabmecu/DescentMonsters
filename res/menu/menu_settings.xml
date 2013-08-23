@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/menusettings_checkall_expan" android:title="@string/menusettings_checkall_expan" android:icon="@android:drawable/ic_menu_agenda"></item>
+    <item android:id="@+id/menusettings_uncheckall_expan" android:icon="@android:drawable/ic_menu_close_clear_cancel" android:title="@string/menusettings_uncheckall_expan"></item>
+    
+
+</menu>

@@ -17,8 +17,8 @@ public class FiltersActivity extends MonstersPreferenceActivity  {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		addPreferencesFromResource(R.xml.filters);
-		// Registramos un listener para saber si hay cambios en las preferencias
-		PreferenceManager.getDefaultSharedPreferences(this).registerOnSharedPreferenceChangeListener(this);
+		// El listener no es necesario registralo aquí, 
+		// ya se añade en el método onResume de la clase padre.
 	}
 	
 	@Override
