@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_version_text">Versión:</string>
+    <string name="about_author_text">Autor:</string>
+    <string name="about_author_value">Gabriel Merin</string>
+    <string name="about_release_text">Notas de la versión:</string>
+    <string name="about_release_value">- Incluidas todas las expansiones publicadas.
+\n- Filtrado por rasgo y tipo de ataque.
+\n- Configuración de las expansiones disponibles.
+\n- Aplicación en Inglés/Español.
+\n- Especificaciones completas de cada monstruo.
+\n- Nombre provisional para los monstruos de la expansión "Laberinto de Perdición".</string>
+    <string name="about_description_text">Descripción:</string>
+    <string name="about_description_value">\tEn la mayoría de los encuentros, 
+el señor supremo es libre de elegir un grupo de monstruos que pertenezca a 
+unos de los rasgos indicados por la aventura. Sin embargo, resulta tedioso 
+tener que buscar uno a uno todos los monstruos de los rasgos indicados.
+\n\tEsta aplicación tiene como objetivo simplificar dicha búsqueda y 
+facilitar así la elección del grupo de monstruos.</string>
+</resources>

@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.gmerin.descentmonsters"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.0.0" >
 
     <uses-sdk
         android:minSdkVersion="8"
@@ -36,6 +36,7 @@
         </activity>
         <activity android:name="SettingsActivity" android:label="@string/tittle_activity_settings"></activity>
         <activity android:name="FiltersActivity"></activity>
+        <activity android:name="AboutActivity"></activity>
     </application>
 
 </manifest>

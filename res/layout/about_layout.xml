@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+	    <ImageView
+	        android:id="@+id/aboutImage"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:src="@drawable/ic_launcher" />
+	
+	    <TextView
+	        android:id="@+id/versionText"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:text="@string/about_version_text"
+	        android:textStyle="bold" />
+	
+	    <TextView
+	        android:id="@+id/versionValue"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center" />
+	
+	    <TextView
+	        android:id="@+id/authorText"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_marginTop="@dimen/about_margin_between_elements"
+	        android:text="@string/about_author_text"
+	        android:textStyle="bold" />
+	
+	    <TextView
+	        android:id="@+id/authorValue"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:text="@string/about_author_value" />
+	
+	    <TextView
+	        android:id="@+id/releaseText"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_marginTop="@dimen/about_margin_between_elements"
+	        android:text="@string/about_release_text"
+	        android:textStyle="bold" />
+	
+	    <TextView
+	        android:id="@+id/releaseValue"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="left|fill_horizontal"
+	        android:layout_marginLeft="@dimen/about_margin_text_left_right"
+	        android:layout_marginRight="@dimen/about_margin_text_left_right"
+	        android:text="@string/about_release_value" />
+	
+	    <TextView
+	        android:id="@+id/descriptionText"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_marginTop="@dimen/about_margin_between_elements"
+	        android:text="@string/about_description_text"
+	        android:textStyle="bold" />
+	
+	    <TextView
+	        android:id="@+id/descriptionValue"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="left|fill_horizontal"
+	        android:layout_marginLeft="@dimen/about_margin_text_left_right"
+	        android:layout_marginRight="@dimen/about_margin_text_left_right"
+	        android:text="@string/about_description_value" />
+
+	</LinearLayout>
+</ScrollView>

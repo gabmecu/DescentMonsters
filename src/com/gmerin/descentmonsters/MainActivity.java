@@ -71,6 +71,9 @@ public class MainActivity extends TabActivity {
 			case R.id.menu_filter:
 				startActivity(new Intent(MainActivity.this, FiltersActivity.class));
 				break;
+			case R.id.menu_about:
+				startActivity(new Intent(MainActivity.this, AboutActivity.class));
+				break;
 			case R.id.menu_exit:
 				finish();
 		}
