@@ -16,6 +16,8 @@ public final class R {
         public static final int act_listview_row_ab_size=0x7f060006;
         public static final int act_listview_row_txt_margin=0x7f060005;
         /**  Default screen margins, per the Android Design guidelines. 
+ Default screen margins, per the Android Design guidelines. 
+ Default screen margins, per the Android Design guidelines. 
 
          Customize dimensions originally defined in res/values/dimens.xml (such as
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
