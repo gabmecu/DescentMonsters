@@ -11,7 +11,7 @@
 \n- Complete monster stats.</string>
     <string name="about_description_text">Description:</string>
     <string name="about_description_value">\tIn most of the encounters, the overlord
-may add a group of monsters belonging to one of the adventure traits. However, filtering
+may add a group of monsters belonging to one of the encounter traits. However, filtering
 monsters from the monster deck is a tedious task.
 \n\tThe goal of this app is to make that filtering process quick and easy, 
 helping in the selection of the monster group that fits your needs.</string>
