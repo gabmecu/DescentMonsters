@@ -9,7 +9,7 @@
     <string name="mon_ab_7">Veneno</string>
     <string name="mon_ab_8">Capullo</string>
     <string name="mon_ab_9">Escurridizo</string>
-    <string name="mon_ab_10">Alcance</string>
+    <string name="mon_ab_10">al alcance</string>
     <string name="mon_ab_11">Aullido</string>
     <string name="mon_ab_12">Depredador nocturno</string>
     <string name="mon_ab_13">Metamorfo</string>
@@ -19,7 +19,7 @@
     <string name="mon_ab_17">Explosión</string>
     <string name="mon_ab_18">Causar miedo</string>
     <string name="mon_ab_19">Sombra</string>
-    <string name="mon_ab_20">Aliento de calor</string>
+    <string name="mon_ab_20">Aliento de fuego</string>
     <string name="mon_ab_21">Agua</string>
     <string name="mon_ab_22">Fuego</string>
     <string name="mon_ab_23">Tierra</string>
@@ -55,10 +55,10 @@
     <string name="mon_ab_53">Abrasar</string>
     <string name="mon_ab_54">Combustible</string>
     <string name="mon_ab_55">Ensañarse con los débiles</string>
-    <string name="mon_ab_56">Embrujar</string>
-    <string name="mon_ab_57">Maldecir</string>
-    <string name="mon_ab_58">Escaramuza</string>
-    <string name="mon_ab_59">Plaga</string>
-    <string name="mon_ab_60">Ataque con pinzas</string>
-    <string name="mon_ab_61">Maldición Permanente</string>
+    <string name="mon_ab_56">*Embrujar</string>
+    <string name="mon_ab_57">*Maldecir</string>
+    <string name="mon_ab_58">*Escaramuza</string>
+    <string name="mon_ab_59">*Plaga</string>
+    <string name="mon_ab_60">*Ataque con pinzas</string>
+    <string name="mon_ab_61">*Maldición Permanente</string>
 </resources>

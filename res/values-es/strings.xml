@@ -24,7 +24,8 @@
     <string name="menufilters_uncheckall_traits">Desmarcar todos los rasgos</string>
     <string name="menusettings_checkall_expan">Marcar todas las expansiones</string>
     <string name="menusettings_uncheckall_expan">Desmarcar todas las expansiones</string>
-    
+    <string name="desc_abilities_act">Acto</string>
+    <string name="desc_abilities_title">Detalles del Monstruo</string>    
     
     
 

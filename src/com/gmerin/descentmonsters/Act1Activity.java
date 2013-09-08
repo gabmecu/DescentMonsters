@@ -7,6 +7,7 @@ import android.widget.ListView;
 
 import com.gmerin.descentmonsters.adapters.ActXListViewAdapter;
 import com.gmerin.descentmonsters.db.MonstersDBHelper;
+import com.gmerin.descentmonsters.listeners.ActXListViewListener;
 import com.gmerin.descentmonsters.utils.PreferencesHelper;
 
 public class Act1Activity extends Activity {
@@ -33,6 +34,7 @@ public class Act1Activity extends Activity {
 			public void run() {
 				monActXAdapter = new ActXListViewAdapter(Act1Activity.this, monDBHelper.getAct1Monsters(prefHelp), false);
 				listView.setAdapter(monActXAdapter);
+				listView.setOnItemClickListener(new ActXListViewListener(Act1Activity.this));
 			}
 		});
 	}

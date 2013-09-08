@@ -48,4 +48,33 @@ public class DrawableHelper {
 		return -1;
 	}
 	
+	/**
+	 * Transforma los códigos utilizados en la BD para representar el coste de las abilidades
+	 * en tokens utilizados el fichero desc_abilities.xml, que son los mismos que están en el
+	 * método de abajo.
+	 * @param cod Código del coste de la acción usado en la BD
+	 * @return token Token usado por el método de abajo
+	 */
+	public static String transformBDActionCostToToken(String cod) {
+		if (cod == null) return "";
+		if (cod.compareTo("ac") == 0) return ":act:"; // Acción
+		if (cod.compareTo("in") == 0) return ":sur:";	// Incremento
+		if (cod.compareTo("ii") == 0) return ":su2:"; // Doble incremento
+		return "";
+	}
+	
+	public static int getDrawableIDAbilityDesc(String token) {
+		if (token == null) return -1;
+		if (token.compareTo(":dam:") == 0) return R.drawable.icon_damage; // Daño
+		if (token.compareTo(":fat:") == 0) return R.drawable.icon_fatigue; // Fatiga
+		if (token.compareTo(":awa:") == 0) return R.drawable.icon_awarenes; // Percepción
+		if (token.compareTo(":mig:") == 0) return R.drawable.icon_might; // Fuerza
+		if (token.compareTo(":kno:") == 0) return R.drawable.icon_knowledge; // Conocimiento
+		if (token.compareTo(":def:") == 0) return R.drawable.icon_defense; // Defensa
+		if (token.compareTo(":sur:") == 0) return R.drawable.icon_surge; // Incremento
+		if (token.compareTo(":act:") == 0) return R.drawable.icon_action; // Acción
+		if (token.compareTo(":su2:") == 0) return R.drawable.icon_2surge;
+		return -1;
+	}
+	
 }
