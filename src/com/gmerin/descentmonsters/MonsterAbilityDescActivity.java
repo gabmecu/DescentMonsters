@@ -64,7 +64,9 @@ public class MonsterAbilityDescActivity extends Activity {
 		Cursor capCursor = monDB.getMonActAbilities(idMonActo);
 		
 		// Rellenamos el acto
-		txtActo.setText(txtActo.getText().toString()+acto); // TODO Utilizar una cadena que dependa del idioma
+		String actoNumRom = " I";
+		if (acto == 2) actoNumRom = " II";
+		txtActo.setText(txtActo.getText().toString()+actoNumRom); // TODO Utilizar una cadena que dependa del idioma
 		
 		// Rellenamos el nombre del monstruo
 		int idMonProperty = ReflectiveHelper.getRStringID(Constants.SUFFIX_NAME_MONSTERS+idMon);

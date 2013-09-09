@@ -33,7 +33,7 @@
 	        android:id="@+id/txt_ab1_desc"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
-	        android:layout_marginBottom="@dimen/des_abilities_vertical_margin"
+	        android:layout_marginBottom="@dimen/desc_abilities_vertical_margin"
 	        android:layout_marginLeft="@dimen/desc_abilities_border_margin"
 	        android:layout_marginRight="@dimen/desc_abilities_border_margin" />
 
@@ -41,7 +41,7 @@
 	        android:id="@+id/txt_ab2_desc"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
-	        android:layout_marginBottom="@dimen/des_abilities_vertical_margin"
+	        android:layout_marginBottom="@dimen/desc_abilities_vertical_margin"
 	        android:layout_marginLeft="@dimen/desc_abilities_border_margin"
 	        android:layout_marginRight="@dimen/desc_abilities_border_margin" />
 
@@ -49,7 +49,7 @@
 	        android:id="@+id/txt_ab3_desc"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
-	        android:layout_marginBottom="@dimen/des_abilities_vertical_margin"
+	        android:layout_marginBottom="@dimen/desc_abilities_vertical_margin"
 	        android:layout_marginLeft="@dimen/desc_abilities_border_margin"
 	        android:layout_marginRight="@dimen/desc_abilities_border_margin" />
 
@@ -57,7 +57,7 @@
 	        android:id="@+id/txt_ab4_desc"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
-	        android:layout_marginBottom="@dimen/des_abilities_vertical_margin"
+	        android:layout_marginBottom="@dimen/desc_abilities_vertical_margin"
 	        android:layout_marginLeft="@dimen/desc_abilities_border_margin"
 	        android:layout_marginRight="@dimen/desc_abilities_border_margin" />
 

@@ -24,19 +24,20 @@
         </activity>
         <activity
             android:name="com.gmerin.descentmonsters.MonstersActivity"
-            android:label="@string/tittle_activity_monsters" >
+            android:label="@string/title_activity_monsters" >
         </activity>
         <activity
             android:name="com.gmerin.descentmonsters.Act1Activity"
-            android:label="@string/tittle_activity_act1" >
+            android:label="@string/title_activity_act1" >
         </activity>
         <activity
             android:name="com.gmerin.descentmonsters.Act2Activity"
-            android:label="@string/tittle_activity_act2" >
+            android:label="@string/title_activity_act2" >
         </activity>
-        <activity android:name="SettingsActivity" android:label="@string/tittle_activity_settings"></activity>
-        <activity android:name="FiltersActivity"></activity>
-        <activity android:name="AboutActivity"></activity>
+        <activity android:name="SettingsActivity" android:label="@string/title_activity_settings"></activity>
+        <activity android:name="FiltersActivity" android:label="@string/title_activity_filters"></activity>
+        <activity android:name="AboutActivity" android:theme="@android:style/Theme.DeviceDefault.Light.Dialog" android:label="@string/title_activity_about"></activity>
+        <activity android:name="MonsterAbilityDescActivity" android:theme="@android:style/Theme.DeviceDefault.Light.Dialog" android:label="@string/desc_abilities_title"></activity>
     </application>
 
 </manifest>

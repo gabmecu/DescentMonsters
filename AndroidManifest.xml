@@ -34,9 +34,9 @@
             android:name="com.gmerin.descentmonsters.Act2Activity"
             android:label="@string/title_activity_act2" >
         </activity>
-        <activity android:name="SettingsActivity" android:label="@string/title_activity_settings" android:theme="@android:style/Theme.DeviceDefault.Light.Dialog"></activity>
-        <activity android:name="FiltersActivity" android:label="@string/title_activity_filters" android:theme="@android:style/Theme.DeviceDefault.Light.Dialog"></activity>
-        <activity android:name="AboutActivity"></activity>
+        <activity android:name="SettingsActivity" android:label="@string/title_activity_settings"></activity>
+        <activity android:name="FiltersActivity" android:label="@string/title_activity_filters"></activity>
+        <activity android:name="AboutActivity" android:theme="@android:style/Theme.DeviceDefault.Light.Dialog" android:label="@string/title_activity_about"></activity>
         <activity android:name="MonsterAbilityDescActivity" android:theme="@android:style/Theme.DeviceDefault.Light.Dialog" android:label="@string/desc_abilities_title"></activity>
     </application>
 

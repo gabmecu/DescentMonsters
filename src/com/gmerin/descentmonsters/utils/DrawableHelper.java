@@ -73,6 +73,7 @@ public class DrawableHelper {
 		if (token.compareTo(":def:") == 0) return R.drawable.icon_defense; // Defensa
 		if (token.compareTo(":sur:") == 0) return R.drawable.icon_surge; // Incremento
 		if (token.compareTo(":act:") == 0) return R.drawable.icon_action; // Acción
+		if (token.compareTo(":wil:") == 0) return R.drawable.icon_willpower; // Voluntad
 		if (token.compareTo(":su2:") == 0) return R.drawable.icon_2surge;
 		return -1;
 	}

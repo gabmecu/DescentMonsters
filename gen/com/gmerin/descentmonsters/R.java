@@ -13,6 +13,7 @@ public final class R {
     public static final class dimen {
         public static final int about_margin_between_elements=0x7f060007;
         public static final int about_margin_text_left_right=0x7f060008;
+        public static final int about_margin_text_top_bottom=0x7f06000b;
         public static final int act_listview_row_ab_size=0x7f060006;
         public static final int act_listview_row_txt_margin=0x7f060005;
         /**  Default screen margins, per the Android Design guidelines. 
@@ -25,8 +26,8 @@ public final class R {
          */
         public static final int activity_horizontal_margin=0x7f060000;
         public static final int activity_vertical_margin=0x7f060001;
-        public static final int des_abilities_vertical_margin=0x7f06000a;
         public static final int desc_abilities_border_margin=0x7f060009;
+        public static final int desc_abilities_vertical_margin=0x7f06000a;
         public static final int monster_tab_icon_size=0x7f060002;
         public static final int tab_text_normal_size=0x7f060003;
         public static final int tab_text_small_size=0x7f060004;
@@ -300,8 +301,8 @@ public final class R {
         public static final int desc_ab_7=0x7f05000d;
         public static final int desc_ab_8=0x7f05000e;
         public static final int desc_ab_9=0x7f05000f;
-        public static final int desc_abilities_act=0x7f0500d4;
-        public static final int desc_abilities_title=0x7f0500d5;
+        public static final int desc_abilities_act=0x7f0500d5;
+        public static final int desc_abilities_title=0x7f0500d6;
         public static final int expan_name_AoD=0x7f050085;
         public static final int expan_name_JitD1=0x7f050083;
         public static final int expan_name_JitD2=0x7f050087;
@@ -312,14 +313,14 @@ public final class R {
         public static final int main_tab_act1=0x7f0500bf;
         public static final int main_tab_act2=0x7f0500c0;
         public static final int main_tab_monsters=0x7f0500be;
-        public static final int menu_about=0x7f0500cc;
-        public static final int menu_config=0x7f0500c9;
-        public static final int menu_exit=0x7f0500cb;
-        public static final int menu_filter=0x7f0500ca;
-        public static final int menufilters_checkall_traits=0x7f0500d0;
-        public static final int menufilters_uncheckall_traits=0x7f0500d1;
-        public static final int menusettings_checkall_expan=0x7f0500d2;
-        public static final int menusettings_uncheckall_expan=0x7f0500d3;
+        public static final int menu_about=0x7f0500cd;
+        public static final int menu_config=0x7f0500ca;
+        public static final int menu_exit=0x7f0500cc;
+        public static final int menu_filter=0x7f0500cb;
+        public static final int menufilters_checkall_traits=0x7f0500d1;
+        public static final int menufilters_uncheckall_traits=0x7f0500d2;
+        public static final int menusettings_checkall_expan=0x7f0500d3;
+        public static final int menusettings_uncheckall_expan=0x7f0500d4;
         public static final int mon_ab_1=0x7f050044;
         public static final int mon_ab_10=0x7f05004d;
         public static final int mon_ab_11=0x7f05004e;
@@ -421,12 +422,13 @@ public final class R {
         public static final int mon_name_7=0x7f050090;
         public static final int mon_name_8=0x7f050091;
         public static final int mon_name_9=0x7f050092;
-        public static final int settings_category_attack_type=0x7f0500cf;
-        public static final int settings_category_expansions=0x7f0500cd;
-        public static final int settings_category_traits=0x7f0500ce;
+        public static final int settings_category_attack_type=0x7f0500d0;
+        public static final int settings_category_expansions=0x7f0500ce;
+        public static final int settings_category_traits=0x7f0500cf;
         public static final int tab_act1_title=0x7f0500c2;
         public static final int tab_act2_title=0x7f0500c3;
         public static final int tab_monsters_title=0x7f0500c1;
+        public static final int title_activity_about=0x7f0500c9;
         public static final int title_activity_act1=0x7f0500c5;
         public static final int title_activity_act2=0x7f0500c6;
         public static final int title_activity_filters=0x7f0500c8;

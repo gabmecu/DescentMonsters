@@ -8,11 +8,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical" >
+
 	    <ImageView
 	        android:id="@+id/aboutImage"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
 	        android:layout_gravity="center"
+	        android:layout_marginTop="@dimen/about_margin_text_top_bottom"
 	        android:src="@drawable/ic_launcher" />
 	
 	    <TextView
@@ -77,10 +79,10 @@
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
 	        android:layout_gravity="left|fill_horizontal"
+	        android:layout_marginBottom="@dimen/about_margin_text_top_bottom"
 	        android:layout_marginLeft="@dimen/about_margin_text_left_right"
 	        android:layout_marginRight="@dimen/about_margin_text_left_right"
 	        android:text="@string/about_release_value" />
-	
 
 	</LinearLayout>
 </ScrollView>

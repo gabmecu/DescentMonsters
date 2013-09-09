@@ -14,7 +14,7 @@
     <string name="title_activity_act2">Acto2</string>
     <string name="title_activity_settings">Configuración</string>
     <string name="title_activity_filters">Filtrado</string>
-    <string name="menu_config">Configuración</string>
+    <string name="title_activity_about">Acerca De</string><string name="menu_config">Configuración</string>
     <string name="menu_filter">Filtrar monstruos</string>
     <string name="menu_exit">Salir</string>
     <string name="menu_about">Acerca de</string><string name="settings_category_expansions">Expansiones</string>
@@ -25,7 +25,8 @@
     <string name="menusettings_checkall_expan">Marcar todas las expansiones</string>
     <string name="menusettings_uncheckall_expan">Desmarcar todas las expansiones</string>
     <string name="desc_abilities_act">Acto</string>
-    <string name="desc_abilities_title">Detalles del Monstruo</string>    
+    <string name="desc_abilities_title">Detalles del Monstruo</string>
+        
     
     
 
