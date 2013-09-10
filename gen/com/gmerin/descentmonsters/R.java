@@ -49,7 +49,7 @@ public final class R {
         public static final int ic_launcher=0x7f02000d;
         public static final int icon_2surge=0x7f02000e;
         public static final int icon_action=0x7f02000f;
-        public static final int icon_awarenes=0x7f020010;
+        public static final int icon_awareness=0x7f020010;
         public static final int icon_damage=0x7f020011;
         public static final int icon_defense=0x7f020012;
         public static final int icon_fatigue=0x7f020013;

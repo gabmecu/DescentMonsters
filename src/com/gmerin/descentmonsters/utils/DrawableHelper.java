@@ -67,7 +67,7 @@ public class DrawableHelper {
 		if (token == null) return -1;
 		if (token.compareTo(":dam:") == 0) return R.drawable.icon_damage; // Daño
 		if (token.compareTo(":fat:") == 0) return R.drawable.icon_fatigue; // Fatiga
-		if (token.compareTo(":awa:") == 0) return R.drawable.icon_awarenes; // Percepción
+		if (token.compareTo(":awa:") == 0) return R.drawable.icon_awareness; // Percepción
 		if (token.compareTo(":mig:") == 0) return R.drawable.icon_might; // Fuerza
 		if (token.compareTo(":kno:") == 0) return R.drawable.icon_knowledge; // Conocimiento
 		if (token.compareTo(":def:") == 0) return R.drawable.icon_defense; // Defensa
