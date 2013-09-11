@@ -42,6 +42,11 @@ public class MonsterAbilityDescActivity extends Activity {
 		// Obtenemos los elementos gráficos
 		TextView txtActo = (TextView) findViewById(R.id.txt_act);
 		TextView txtMonsterName = (TextView) findViewById(R.id.txt_monster_name);
+		
+		TextView txtGrp2h = (TextView) findViewById(R.id.txt_grp_size_2h);
+		TextView txtGrp3h = (TextView) findViewById(R.id.txt_grp_size_3h);
+		TextView txtGrp4h = (TextView) findViewById(R.id.txt_grp_size_4h);
+		
 		TextView txtAb1Desc = (TextView) findViewById(R.id.txt_ab1_desc);
 		TextView txtAb2Desc = (TextView) findViewById(R.id.txt_ab2_desc);
 		TextView txtAb3Desc = (TextView) findViewById(R.id.txt_ab3_desc);
@@ -83,6 +88,11 @@ public class MonsterAbilityDescActivity extends Activity {
 			if (idImgProperty != -1)
 				imgMonIcon.setImageResource(idImgProperty);
 		}
+		
+		// Rellenamos el tamaño del grupo de monstruos
+		txtGrp2h.setText(Integer.toString(tamGrupo2h));
+		txtGrp3h.setText(Integer.toString(tamGrupo3h));
+		txtGrp4h.setText(Integer.toString(tamGrupo4h));
 		
 		// Rellenamos las habilidades
 		// Inicializamos los TextView a cadena vacía y las ocultamos

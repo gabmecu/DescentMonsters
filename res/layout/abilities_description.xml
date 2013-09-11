@@ -29,6 +29,52 @@
 	        android:layout_height="wrap_content"
 	        android:layout_gravity="center" />
 
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:orientation="horizontal" >
+
+	        <ImageView
+	            android:id="@+id/img_grp_size_2h"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/group_size_2h" />
+
+	        <TextView
+	            android:id="@+id/txt_grp_size_2h"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_vertical" />
+
+	        <ImageView
+	            android:id="@+id/img_grp_size_3h"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="5dp"
+	            android:src="@drawable/group_size_3h" />
+
+	        <TextView
+	            android:id="@+id/txt_grp_size_3h"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_vertical" />
+
+	        <ImageView
+	            android:id="@+id/img_grp_size_4h"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="5dp"
+	            android:src="@drawable/group_size_4h" />
+
+	        <TextView
+	            android:id="@+id/txt_grp_size_4h"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_vertical" />
+
+	    </LinearLayout>
+
 	    <TextView
 	        android:id="@+id/txt_ab1_desc"
 	        android:layout_width="wrap_content"
