@@ -4,12 +4,21 @@
     <string name="about_author_text">Autor:</string>
     <string name="about_author_value">Gabriel Merin</string>
     <string name="about_release_text">Notas de la versión:</string>
-    <string name="about_release_value">- Incluidas todas las expansiones publicadas.
-\n- Filtrado por rasgo y tipo de ataque.
-\n- Configuración de las expansiones disponibles.
-\n- Aplicación en Inglés/Español.
-\n- Especificaciones completas de cada monstruo.
-\n- Nombre provisional para los monstruos de la expansión "Laberinto de Perdición".</string>
+    <string name="about_release_value">
+Versión 1.1.0:\n
+--------------\n
+- Cambio del icono de la aplicación en función del idioma.\n
+- Descripción de las capacidades al hacer clic sobre un monstruo del acto I o II.\n
+- Los Nombres de monstruos y habilidades provisionales se muestran con *.\n
+\n
+Versión 1.0.0:\n
+--------------\n
+- Incluidas todas las expansiones publicadas.\n
+- Filtrado por rasgo y tipo de ataque.\n
+- Configuración de las expansiones disponibles.\n
+- Aplicación en Inglés/Español.\n
+- Especificaciones completas de cada monstruo.\n
+- Nombre provisional para los monstruos de la expansión "Laberinto de Perdición".</string>
     <string name="about_description_text">Descripción:</string>
     <string name="about_description_value">\tEn la mayoría de los encuentros, 
 el señor supremo es libre de elegir un grupo de monstruos que pertenezca a 

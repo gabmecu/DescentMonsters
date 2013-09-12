@@ -36,8 +36,8 @@
     <string name="mon_name_34">Kobold</string>
     <string name="mon_name_35">Diablillos de fuego</string>
     <string name="mon_name_36">Centinela híbrido</string>
-    <string name="mon_name_37">Brujo Goblin</string>
-    <string name="mon_name_38">Despedazador Volucrix</string>
-    <string name="mon_name_39">Dragón carroñero</string>
-    <string name="mon_name_40">Arachyura</string>
+    <string name="mon_name_37">*Brujo Goblin</string>
+    <string name="mon_name_38">*Despedazador Volucrix</string>
+    <string name="mon_name_39">*Dragón carroñero</string>
+    <string name="mon_name_40">*Arachyura</string>
 </resources>

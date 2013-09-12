@@ -15,7 +15,7 @@
     <string name="desc_ab_13">When this monster attacks, it uses the dice of a figure (overlord\'s choice) in its line of sight. If a hero is chosen, the overlord may choose which of the hero\'s equipped weapon to use. The monster cannot use any of the figure\'s other abilities, just the dice.</string>
     <string name="desc_ab_14">After making an attack roll, this monster may convert up to X range to :dam:, or up to X :dam: to range.</string>
     <string name="desc_ab_15">The target suffers 1 :fat:.</string>
-    <string name="desc_ab_16">Each time a hero enters a space adjacent to this monster, that hero suffers 1 :dam:.</string>
+    <string name="desc_ab_16">Each time a hero enters a space adjacent to this monster, that hero suffers X :dam:.</string>
     <string name="desc_ab_17">This attack affects all figures adjacent to the target space.</string>
     <string name="desc_ab_18">Choose a hero adjacent to this monster. That hero must test :wil:. If he fails, he moves 2 spaces dircectly away from this monster and is Immobilized.</string>
     <string name="desc_ab_19">A hero adjacent to this monster that declares an attack must spend 1 :sur: or the attack is considered a miss.</string>
@@ -48,7 +48,7 @@
     <string name="desc_ab_46">Each hero within 3 spaces of this monster must test :wil:.  Each hero that fails suffers 1 :fat:.</string>
     <string name="desc_ab_47">Each time a hero enters a space adjacent to this monster, that hero suffers 1 :fat:.</string>
     <string name="desc_ab_48">If a hero is defeated by this monster, remove his hero token from the map and place it on this monster’s base. The hero cannot be revived until this monster is defeated, at which point his hero token is placed in one of this monster’s spaces.</string>
-    <string name="desc_ab_49">This monster may move its Speed, ignoring enemy figures as it does so. When if finishes its movement, perform a single attack that targets each figure this monster moved through. Each figure rolls defense dice separately. Limit once per turn.</string>
+    <string name="desc_ab_49">This monster may move its Speed, ignoring enemy figures as it does so. When it finishes its movement, perform a single attack that targets each figure this monster moved through. Each figure rolls defense dice separately. Limit once per turn.</string>
     <string name="desc_ab_50">Choose an adjacent hero. That hero must test :awa:. If he fails, he suffers 3 :dam:.</string>
     <string name="desc_ab_51">This monster may not perform more than 1 move action during a single turn.</string>
     <string name="desc_ab_52">This monster ignores all effects of lava. Each time this monster ends its turn in a space containing lava, it recovers 1 :dam:. In addition, this monster never suffers :dam: from Burning. </string>
