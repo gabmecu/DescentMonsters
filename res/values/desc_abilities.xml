@@ -61,4 +61,8 @@
     <string name="desc_ab_59">When a hero adjacent to this monster would discard a Poisoned or Diseased Condition card, he instead keeps the card.</string>
     <string name="desc_ab_60">Perform an attack targeting up to 2 heroes adjacent to this monster. 1 attack roll is made but each hero rolls defense dice separately. Each target that suffers at least 1 :dam: from this attack (after the defense roll) is Immobilized.</string>
     <string name="desc_ab_61">When this monster is defeated, each adjacent hero must test :wil:. Each hero that fails is Cursed.</string>
+    <string name="desc_ab_62">Each hero adjacent to this monster at the start of his turn must test :wil:. Each hero that fails is Diseased.</string>
+    <string name="desc_ab_63">Remove this figure from the map and place it in empty or occupied spaces up to 3 spaces away. Each figure occupying any target space is moved to the closes empty space of your choice and suffers 1 :fat:. Limit once per monster turn.</string>
+    <string name="desc_ab_64">Each minion monster from this monster group within 5 spaces of this monster may immediately move 2 spaces.</string>
+    <string name="desc_ab_65">If this attack deals at least 1 :dam: (after defense roll), the target is Weakened.</string>
 </resources>

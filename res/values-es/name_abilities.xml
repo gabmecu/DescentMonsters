@@ -56,9 +56,13 @@
     <string name="mon_ab_54">Combustible</string>
     <string name="mon_ab_55">Ensañarse con los débiles</string>
     <string name="mon_ab_56">*Embrujar</string>
-    <string name="mon_ab_57">*Maldecir</string>
-    <string name="mon_ab_58">*Escaramuza</string>
-    <string name="mon_ab_59">*Plaga</string>
-    <string name="mon_ab_60">*Ataque con pinzas</string>
-    <string name="mon_ab_61">*Maldición Permanente</string>
+    <string name="mon_ab_57">Maldición</string>
+    <string name="mon_ab_58">Escaramuza</string>
+    <string name="mon_ab_59">Infectado</string>
+    <string name="mon_ab_60">Ataque de pinzas</string>
+    <string name="mon_ab_61">Maldición Persistente</string>
+    <string name="mon_ab_62">Pestilencia</string>
+    <string name="mon_ab_63">Excavar</string>
+    <string name="mon_ab_64">Bandada</string>
+    <string name="mon_ab_65">Debilitar</string>
 </resources>

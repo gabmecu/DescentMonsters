@@ -28,6 +28,7 @@ public class PreferencesHelper {
 		if (!prefs.getBoolean("show_expan_JitD2", true)) lista.add("JitD2");
 		if (!prefs.getBoolean("show_expan_LotW", true)) lista.add("LotW");
 		if (!prefs.getBoolean("show_expan_LoR", true)) lista.add("LoR");
+		if (!prefs.getBoolean("show_expan_tTF", true)) lista.add("tTF");
 		
 		return stringListToString(lista);
 	}

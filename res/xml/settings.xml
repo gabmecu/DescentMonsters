@@ -8,6 +8,7 @@
         <CheckBoxPreference android:key="show_expan_JitD2" android:title="@string/expan_name_JitD2" android:defaultValue="true"/>
         <CheckBoxPreference android:key="show_expan_LotW" android:title="@string/expan_name_LotW" android:defaultValue="true"/>
         <CheckBoxPreference android:key="show_expan_LoR" android:title="@string/expan_name_LoR" android:defaultValue="true"/>
+        <CheckBoxPreference android:key="show_expan_tTF" android:defaultValue="true" android:title="@string/expan_name_tTF"/>
     </PreferenceCategory>
     
 

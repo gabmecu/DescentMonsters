@@ -55,10 +55,14 @@
     <string name="desc_ab_53">Si este ataque inflige al menos 1 :dam (después de la tirada de defensa), el objetivo queda En Llamas</string>
     <string name="desc_ab_54">Cuando este monstruo sea derrotado, inflige 1 :dam: a cada héroe adyacente.</string>
     <string name="desc_ab_55">Cada ataque de este monstruo que tenga como objetivo un héroe con 2 o menos de :mig: gana +1 :dam:.</string>
-    <string name="desc_ab_56">Mueve cada héroe maldito adyacente a este monstruo hasta 2 espacios en cualquier dirección.</string>
+    <string name="desc_ab_56">Mueve cada héroe Maldito adyacente un máximo de 2 casillas en cualquier dirección que elijas.</string>
     <string name="desc_ab_57">Si este ataque inflige al menos 1 :dam: (después de la tirada de defensa), el objetivo queda Maldito.</string>
-    <string name="desc_ab_58">Este monstruo puede moverse 3 espacios y luego realizar un ataque.</string>
-    <string name="desc_ab_59">Cuando un héroe adyacente a este monstruo fuese a descartar una carta de condición Envenenado o Enfermo, en su lugar se queda la carta.</string>
-    <string name="desc_ab_60">Realiza un ataque cuyo objetivo sean hasta 2 héroes adyacentes a este monstruo. El monstruo hace una sola tirada de ataque, pero cada héroe debe realizar su propia tirada de defensa por separado. Todo héroe que sufra al menos 1 :dam: (después de la tirada de defensa) es Inmovilizado.</string>
-    <string name="desc_ab_61">Cuando este monstruo sea vencido, cada héroe adyacente debe realizar una prueba de :wil:. Cada héroe que no la supere queda Maldito.</string> 
+    <string name="desc_ab_58">Este monstruo puede moverse 3 casillas y luego realizar un ataque.</string>
+    <string name="desc_ab_59">Cuando un héroe adyacente a este monstruo fuese a descartar una carta de Estado Envenenado o Enfermo, en vez de eso se queda la carta.</string>
+    <string name="desc_ab_60">Realiza un ataque que tome como objetivo a un máximo de 2 héroes adyacentes a este monstruo. Se realiza 1 tirada de ataque, pero cada héroe lanza dados de Defensa por separado. Cada objetivo que sufra al menos 1 :dam: por este ataque (después de la tirada de defensa), queda Inmovilizado.</string>
+    <string name="desc_ab_61">Cuando este monstruo es derrotado, cada héroe adyacente debe realizar una prueba de :wil:. Cada héroe que la falle queda Maldito.</string> 
+    <string name="desc_ab_62">Cada héroe adyacente a este monstruo al comienzo de su turno debe efectuar una prueba de :wil:. Cada héroe que falle queda Enfermo.</string>
+    <string name="desc_ab_63">Retira esta miniatura del tablero y colócala en una casilla vacía u ocupada que esté a 3 casillas o menos de distancia. Cada miniatura que ocupe cualquier casilla objetivo se mueve a la casilla vacía más cercana de su elección y sufre 1 :fat:. Límite de una vez por monstruo y turno.</string>
+    <string name="desc_ab_64">Cada monstruo común de este grupo de monstruos que esté a 5 casillas o menos de este monstruo puede moverse 2 casillas inmediatamente.</string>
+    <string name="desc_ab_65">Si este ataque inflige al menos 1 :dam: (después de la tirada de defensa), el objetivo queda Debilitado.</string>
 </resources>

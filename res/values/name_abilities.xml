@@ -61,4 +61,8 @@
     <string name="mon_ab_59">Plague</string>
     <string name="mon_ab_60">Pincer Attack</string>
     <string name="mon_ab_61">Lingering Curse</string>
+    <string name="mon_ab_62">Pestilence</string>
+    <string name="mon_ab_63">Burrow</string>
+    <string name="mon_ab_64">Flock</string>
+    <string name="mon_ab_65">Weaken</string>
 </resources>
