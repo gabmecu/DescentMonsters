@@ -5,6 +5,13 @@
     <string name="about_author_value">Gabriel Merin</string>
     <string name="about_release_text">Notas de la versión:</string>
     <string name="about_release_value">
+Versión 1.2.1:\n
+--------------\n
+- Añadidos los monstruos de La Ciénaga del Troll.\n
+- Corregido un error menor en las capacidades el Brujo Goblin.\n
+- Nombres oficiales para los monstruos y capacidades de Laberinto de Perdición.\n
+- Spanish only: Official names for Labyrinth of Ruin monsters and abilities.\n
+\n
 Versión 1.1.0:\n
 --------------\n
 - Cambio del icono de la aplicación en función del idioma.\n

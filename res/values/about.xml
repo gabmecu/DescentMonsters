@@ -5,10 +5,16 @@
     <string name="about_author_value">Gabriel Merin</string>
     <string name="about_release_text">Release Notes:</string>
     <string name="about_release_value">
+Version 1.2.1:\n
+--------------\n
+- Added The Trollfens monsters.\n
+- Corrected a minor error in the Gobling Witcher abilities.\n
+- Spanish only: Official names for Labyrinth of Ruin monsters and abilities.\n
+\n
 Version 1.1.0:\n
 --------------\n
 - The app icon now changes depending on the system language.\n
-- Click on act I or II monsters to see a description of their abilities\n. 
+- Click on act I or II monsters to see a description of their abilities.\n
 \n
 Version 1.0.0:\n
 --------------\n
